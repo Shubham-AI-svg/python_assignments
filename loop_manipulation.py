@@ -3,26 +3,26 @@ p = 'Shubh'
 def for_else_loop(choice):
     for i in p:
         if choice == 'pass':
-            if i == 't':
+            if i == 'p':
                 pass
             else:
                 print(i)
         elif choice == 'break':
-            if i == 't':
+            if i == 'p':
                 break
             else:
                 print(i)
         elif choice == 'continue':
-            if i == 't':
+            if i == 'p':
                 continue
             else:
                 print(i)
         elif choice == 'all':
-            if i == 'a':
+            if i == 'k':
                 pass
-            elif i == 't':
+            elif i == 'a':
                 continue
-            elif i == 'k':
+            elif i == 't':
                 break
             else:
                 print(i)
@@ -31,21 +31,21 @@ def for_else_loop(choice):
 
 def while_else_loop(choice):
     a = 0
-    while a < 15:
+    while a < 20:
         if choice == 'pass':
-            if a == 3:
+            if a == 2:
                 pass
             else:
                 print(a)
             a+=1
         elif choice == 'continue':
             a+=1
-            if a == 3:
+            if a == 2:
                 continue
             else:
                 print(a)
         elif choice == 'break':
-            if a == 3:
+            if a == 2:
                 break
             else:
                 print(a)
@@ -53,10 +53,10 @@ def while_else_loop(choice):
         elif choice == 'all':
             if a == 2:
                 pass
-            elif a == 3:
+            elif a == 4:
                 a+=1
                 continue
-            elif a == 9:
+            elif a == 6:
                 break
             else:
                 print(a)
