@@ -17,15 +17,15 @@ def ds(roll_no, name):
   lst[0] = 1 
   lst[1] = "Shubh" 
 
-  tup = (5, "Patrick") 
+  tup = (10, "Patrick") 
   
   st.remove(roll_no) 
   st.remove(name) 
-  st.add(67) 
-  st.add("Joe")
+  st.add(54) 
+  st.add("Biden")
   
-  dct.update({'roll_no':99})
-  dct.update({'name':'Raiden'})
+  dct.update({'roll_no':95})
+  dct.update({'name':'Rock'})
 
   print("\nUpdated values:")
   print("List:", lst)
@@ -39,4 +39,4 @@ def ds(roll_no, name):
   del st 
   del dct 
 
-ds(43, "Prateek")
+ds(54, "Bruce")
